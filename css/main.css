@@ -1,0 +1,35 @@
+
+.navbar-brand {
+  padding: 0px;
+  height:100px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+#logo {
+    height:100px!important;
+    cursor: pointer;
+}
+
+/** 
+* sidebar menu
+*/
+.left-menu-wrapper {
+    background-color: lightgreen;
+    position:fixed;
+    width:250px;
+    top:50%;
+    z-index: 5;
+}
+
+.sidebar-nav{
+   /* position: absolute;*/
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
