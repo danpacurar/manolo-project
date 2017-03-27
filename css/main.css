@@ -1,4 +1,18 @@
+/**
+* font
+*/
+@font-face {
+	font-family: "My Custom Font";
+	src: url(../font/Montserrat-Regular.otf) format("truetype");
+}
 
+body { 
+	font-family: "My Custom Font", Verdana, Tahoma;
+}
+
+/**
+* Top Navbar
+*/
 .navbar-brand {
   padding: 0px;
   height:100px;
@@ -20,16 +34,24 @@
 .left-menu-wrapper {
     background-color: lightgreen;
     position:fixed;
-    width:250px;
+    width:200px;
     top:50%;
     z-index: 5;
 }
 
 .sidebar-nav{
-   /* position: absolute;*/
     top: 0;
     width: 250px;
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-left: 20px;
+
+}
+
+.sidebar-text{
+    line-height: 35px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
