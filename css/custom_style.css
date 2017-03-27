@@ -1,0 +1,16 @@
+#header{
+    background: rgba(17,17,17,0.85);
+    padding-bottom: 0.75em;
+}
+
+.header-logo span, .header-logo a span {
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75em;
+}
+
+#menu .menu_style .list-item {
+  position: relative;
+  top: -2px;
+}

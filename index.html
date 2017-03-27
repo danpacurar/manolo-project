@@ -4,39 +4,99 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Manolo Project</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
 	<link rel="stylesheet" href="css/main.css">
-	
+	<link rel="stylesheet" href="css/custom_style.css">
+
 </head>
 <body>
 
-	<header>
-		<nav>
-			<div>
-				<a class="navbar-brand" href="#">
-					<img src="img/logo.png" alt="Logo" id="logo">
-				</a>
-			</div>
-		</nav>
+	<header id="header">
+		
+		<h1 class="header-logo">
+			<a href="/">
+			Manu Nedila
+			<span>Photography</span>
+			</a>
+		</h1>
+
+		<nav id="menu">	
+			<ul class="menu_list menu_style pull-right">
+				<li class="list-item">Places</li>
+				<li class="list-item">People</li>
+				<li class="list-item">Portraits</li>
+				<li class="list-item">Street</li>
+			</ul>
+		</nav>	
 	</header>
 
 	<main>
-		<div class="left-menu-wrapper">
+		<!--<div class="left-menu-wrapper">
 			<ul class="sidebar-nav sidebar-text">
 				<li>Places</li>
 				<li>People</li>
 				<li>Portraits</li>
 				<li>Street</li>
 			</ul>
-		</div>
+		</div>-->
 
-		<div class="owl-carousel">
+		
+			<!-- Flickity HTML init -->
 
-		</div>
+<div style="display:table; height:100vh; width:100vw;">
+  <div style="display:table-cell;vertical-align:middle;">
+    <div style="margin-left:auto;margin-right:auto;">
+
+<div class="carousel js-flickity" style="max-width:1000px; margin:0 auto;">
+				<!-- images from unsplash.com -->
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
+				</div>
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="submerged" />
+				</div>
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
+				</div>
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
+				</div>
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
+				</div>
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
+				</div>
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" alt="contrail" />
+				</div>
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" alt="golden hour" />
+				</div>
+				<div class="carousel-cell">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" alt="flight formation" />
+				</div>
+			</div>
+
+
+
+	</div>
+  </div>
+</div>
+			
+
 	</main>
 
 	<footer>
 		
 	</footer>
+
+	<script src="js/flickity.pkgd.js"></script>
+
+
 </body>
 </html>
