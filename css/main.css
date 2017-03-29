@@ -61,6 +61,20 @@ body {
         outline: 0;
         margin: 0.2em 0.4em;
     }
+
+    #menu:before{
+      content:"MENU";
+      color:white;
+    }
+
+    .flickity-viewport{
+      height:70vh!important;
+    }
+
+    .carousel-cell{
+      height:90vw;
+    }
+   
 }
 
 /*Desktop*/
