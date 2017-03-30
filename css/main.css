@@ -74,6 +74,10 @@ body {
     .carousel-cell{
       height:90vw;
     }
+
+    .header-logo a{
+      font-size:36px;
+    }
    
 }
 
@@ -81,7 +85,7 @@ body {
 @media screen and (min-width: 768px)  {
     #header{
         position: fixed;
-        padding: 1.8% 2% 1.8%;
+        padding: 14px;
     }
 
     #menu{
