@@ -52,37 +52,42 @@ body {
     white-space: normal;
     transition: opacity 0.2s ease-out;
 }
-    .menu_list {
-        display: inline-block;
-        margin-bottom: 1em;
-       
+
+#menu li{
+  display:none;
+  outline: 0;
+  margin: 0.2em 0.4em;
 }
+
 .menu_list::before {
-      content:"Menu";
-       
+  content:"Menu";
+  position:absolute;
+  top:-25px;
 }
-    #menu>ul>li{
-        outline: 0;
-        margin: 0.2em 0.4em;
-    }
+
+.menu_list{
+  position:absolute;
+  top:75px;
+}
+
+#menu:focus li, #menu:hover li{
+  display:block;
+  
+  padding-bottom:10px;
+
+}
 
 
-<<<<<<< HEAD
-=======
-    .flickity-viewport{
-      height:70vh!important;
-    }
+/*HEAD*/
 
-    .carousel-cell{
-      height:120vw!important;
-    }
->>>>>>> f35d4e97cfd9dcd92a940d2c19e7239beed1a512
 
-    .header-logo a{
-      font-size:36px;
-    }
+.header-logo a{
+  font-size:36px;
+}
 
-   
+
+
+
 }
 
 /*Desktop*/
@@ -141,9 +146,3 @@ body {
 .container img{
   height:495px;
 }
-
-/* external css: flickity.css */
-
-/** { box-sizing: border-box; }*/
-
-/*body { font-family: sans-serif; }*/
